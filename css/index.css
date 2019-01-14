@@ -262,113 +262,6 @@ footer.indexFooter p {
   border-bottom: 2px solid black;
   margin-bottom: 25px;
 }
-/* Tablet Range */
-@media screen and (max-width: 800px) {
-  .container {
-    width: 100%;
-  }
-
-  header {
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-  header nav {
-    width: 100%;
-    margin-top: 39px;
-    justify-content: space-around;
-  }
-  header img {
-    padding-left: 31px;
-  }
-
-  main .titleContainer {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 75px;
-  }
-  main .pageTitle:first-child {
-    /* Adding right-margins to INNOVATION box to move it
-  	away from the image */
-    margin-right: 0px;
-  }
-  main .pageTitle h1 {
-    /* Adding right-margins to INNOVATION box to move it
-    away from the image */
-    margin-bottom: 0px;
-  }
-  main .titleContainer img:first-child {
-    display: none;
-  }
-
-  main .mainContainer {
-    margin-top: 33px;
-    justify-content: space-evenly;
-  }
-  main .mainContent {
-    width: 45%;
-  }
-  main .mainContainer:last-child {
-    margin-top: 35px;
-    justify-content: space-evenly;
-  }
-  main .mainContainer:last-child .mainContent {
-    width: 28%;
-  }
-
-  main .middle-img {
-    display: block;
-    width: 95%;
-    margin: 0 auto;
-  }
-}
-@media screen and (max-width: 500px) {
-  header {
-    margin-top: 20px;
-    justify-content: space-evenly;
-  }
-  header nav {
-    margin-top: 20px;
-    flex-direction: column;
-  }
-  header nav a {
-    display: block;
-    text-align: center;
-    padding: 20px 0;
-    width: 100%;
-    border-bottom: 1px solid black;
-    font-size: 20px;
-  }
-  header nav a:first-child {
-    border-top: 1px solid black;
-  }
-  main .titleContainer {
-    margin-top: 50px;
-  }
-
-  main .mainContainer {
-    margin-top: 60px;
-    flex-wrap: wrap;
-    height: 245px;
-    align-content: space-between;
-  }
-  main .mainContainer:last-child {
-    height: 470px;
-    justify-content: center;
-    align-content: space-between;
-    margin-top: 53px;
-  }
-  main .mainContainer:last-child .mainContent {
-    width: 90%;
-  }
-
-  main .mainContent {
-    width: 90%;
-  }
-  .contact {
-    margin-left: 25px;
-  }
-}
 .servMainContent div {
   width: 420px;
   background: #f4f3f4;
@@ -506,4 +399,135 @@ section.copyright p {
   list-style-type: decimal;
   list-style-position: inside;
   margin-bottom: 7px;
+}
+
+/* Tablet Range */
+@media screen and (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
+
+  header {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  header nav {
+    width: 100%;
+    margin-top: 39px;
+    justify-content: space-around;
+  }
+  header img {
+    padding-left: 31px;
+  }
+
+  main .titleContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 75px;
+  }
+  main .pageTitle:first-child {
+    /* Adding right-margins to INNOVATION box to move it
+  	away from the image */
+    margin-right: 0px;
+  }
+  main .pageTitle h1 {
+    /* Adding right-margins to INNOVATION box to move it
+    away from the image */
+    margin-bottom: 0px;
+  }
+  main .titleContainer img:first-child {
+    display: none;
+  }
+
+  main .mainContainer {
+    margin-top: 33px;
+    justify-content: space-evenly;
+  }
+  main .mainContent {
+    width: 45%;
+  }
+  main .mainContainer:last-child {
+    margin-top: 35px;
+    justify-content: space-evenly;
+  }
+  main .mainContainer:last-child .mainContent {
+    width: 28%;
+  }
+
+  main .middle-img {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+  }
+  /* services.html */
+
+  .intro {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .servMainContent {
+    width: 95%;
+    justify-content: space-evenly;
+    margin: 20px auto;
+  }
+  .servMainContent div {
+    width: 45%;
+  }
+  footer.servFooter {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+  }
+}
+/* Mobile Range */
+@media screen and (max-width: 500px) {
+  header {
+    margin-top: 20px;
+    justify-content: space-evenly;
+  }
+  header nav {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  header nav a {
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+  }
+  header nav a:first-child {
+    border-top: 1px solid black;
+  }
+  main .titleContainer {
+    margin-top: 50px;
+  }
+
+  main .mainContainer {
+    margin-top: 60px;
+    flex-wrap: wrap;
+    height: 245px;
+    align-content: space-between;
+  }
+  main .mainContainer:last-child {
+    height: 470px;
+    justify-content: center;
+    align-content: space-between;
+    margin-top: 53px;
+  }
+  main .mainContainer:last-child .mainContent {
+    width: 90%;
+  }
+
+  main .mainContent {
+    width: 90%;
+  }
+  .contact {
+    margin-left: 25px;
+  }
 }
