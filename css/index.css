@@ -300,8 +300,74 @@ footer.indexFooter p {
   main .titleContainer img:first-child {
     display: none;
   }
+
+  main .mainContainer {
+    margin-top: 33px;
+    justify-content: space-evenly;
+  }
+  main .mainContent {
+    width: 45%;
+  }
+  main .mainContainer:last-child {
+    margin-top: 35px;
+    justify-content: space-evenly;
+  }
+  main .mainContainer:last-child .mainContent {
+    width: 28%;
+  }
+
+  main .middle-img {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+  }
 }
 @media screen and (max-width: 500px) {
+  header {
+    margin-top: 20px;
+    justify-content: space-evenly;
+  }
+  header nav {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  header nav a {
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+  }
+  header nav a:first-child {
+    border-top: 1px solid black;
+  }
+  main .titleContainer {
+    margin-top: 50px;
+  }
+
+  main .mainContainer {
+    margin-top: 60px;
+    flex-wrap: wrap;
+    height: 245px;
+    align-content: space-between;
+  }
+  main .mainContainer:last-child {
+    height: 470px;
+    justify-content: center;
+    align-content: space-between;
+    margin-top: 53px;
+  }
+  main .mainContainer:last-child .mainContent {
+    width: 90%;
+  }
+
+  main .mainContent {
+    width: 90%;
+  }
+  .contact {
+    margin-left: 25px;
+  }
 }
 .servMainContent div {
   width: 420px;
